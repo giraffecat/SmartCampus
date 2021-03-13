@@ -1,0 +1,25 @@
+<l-tabs bind:linchange="changeTabs" >
+  <l-tabpanel tab="A区" key="one" slot="one">
+    
+    <view class="container">
+      <block  wx:for="{{seats}}" wx:key="index">
+
+        <view data-seat_id="{{item.num}}" bind:tap="onTap" class="seats_container">
+          <image wx:if="{{item.morn_ordered && item.even_ordered && item.aftern_ordered}}" class="seats_img" src="/images/seat_selected.png"></image>
+          <image wx:else class="seats_img" src="/images/seat.png"></image>
+          <text class="seats_num">{{item.num}}</text>
+        </view>
+      </block>
+    </view>
+  </l-tabpanel>
+
+  <l-tabpanel tab="B区" key="two" slot="two">
+    <view class="tab-content">B区</view>
+  </l-tabpanel>
+
+  <l-tabpanel tab="C区" key="three" slot="three">
+    <view class="tab-content">C区</view>
+  </l-tabpanel>
+</l-tabs>
+
+

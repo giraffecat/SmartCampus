@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-tabs":"/miniprogram_npm/lin-ui/tabs/index",
+    "l-tabpanel":"/miniprogram_npm/lin-ui/tabpanel/index",
+    "l-segment":"/miniprogram_npm/lin-ui/segment/index",
+    "l-popup":"/miniprogram_npm/lin-ui/popup/index"
+  }
+}

@@ -1,0 +1,27 @@
+<form bindsubmit="">
+
+<view class="container"> 
+
+  <l-avatar size="160" src="/images/login-image.jpeg" />
+  <text class="motto">天津大学佐治亚理工智慧校园系统</text>
+
+    <!--账号-->
+  <view class="inputView"> 
+    <l-icon class="l-icon-user" name="user" />
+    <label class="loginLab">账号</label> 
+    <input class="inputText" name="username" placeholder="请输入学号" bindinput="usernameInput" /> 
+  </view> 
+  <view class="line"></view> 
+    
+    <!--密码-->
+  <view class="inputView"> 
+    <l-icon class="l-icon-password" name="password" />
+    <label class="loginLab">密码</label> 
+    <input class="inputText" name="email" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+  </view> 
+    <!--按钮-->
+  <view bind:tap="onTap" class="login-container">
+    <text class="login">点击登陆</text>
+  </view>
+</view>
+</form>

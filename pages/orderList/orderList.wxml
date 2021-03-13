@@ -1,0 +1,9 @@
+ <block class="container"  wx:for="{{orders}}" wx:for-item="item">
+  <view bind:tap='onGoToDetail' class="order_detail">
+      <image class="seat_img" src="/images/order_seat.svg"></image>
+      <view class="order_text">
+        <text class="seat_num">座位号:{{item.seat_num}}</text>
+        <text class="order_time">预定时间:{{item.order_time}}</text>
+      </view>
+  </view>
+</block>

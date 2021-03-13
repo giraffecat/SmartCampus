@@ -1,0 +1,41 @@
+<view class="view_contain">
+  <!-- 第一部分 -->
+  <view class="header">
+    <view class="view_image_text">
+      <image class="header_image" src="/images/login-image.jpeg" />
+      <text class="header_text">Byrce</text>
+    </view>
+  </view>
+  <!-- 第二部分 -->
+  <view class="order_info">
+    <view class="align">
+      <view class="order_num">
+        <image class="order_num_image" src="/images/ordered.svg"></image>
+        <text class="order_text">预定次数</text>
+      </view>
+      <text class="align_text1">5次</text>
+    </view>
+
+    <view class="hr"></view>
+    <view class="align">
+    <view class="study_time">
+      <image class="study_time_image" src="/images/study_time.svg"></image>
+      <text class="study_text">学习天数</text>
+    </view>
+    <text class="align_text2">5天</text>
+    </view>
+
+  </view>
+  <!-- 第三部分 -->
+  <view class="view_3">
+    <view bind:tap="orderDetail" class="list-item">
+      <image class="item-image" src="/images/my_order.svg"></image>
+      <text class="item-text">我的预定</text>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="/images/phone.svg"></image>
+      <text class="item-text">绑定手机号</text>
+    </view>
+  </view>
+</view>

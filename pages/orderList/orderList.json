@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "l-capsule-bar":"/miniprogram_npm/lin-ui/capsule-bar/index"
+  },
+  "navigationBarBackgroundColor": "#C22A1E",
+  "navigationBarTitleText":"预定详情"
+}

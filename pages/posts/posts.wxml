@@ -1,0 +1,46 @@
+<!--pages/posts/posts.wxml-->
+<view>
+
+  <swiper circular indicator-dots="true" autoplay="true">
+    <swiper-item>
+      <image data-postId="3" bind:tap = "onGoToDetail1" src="/images/slide1.jpeg"></image>
+      <!-- 插槽 -->
+      Content
+    </swiper-item>
+    <swiper-item>
+      <image data-postId="2" bind:tap = "onGoToDetail1"  src="/images/slide2.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-postId="1" bind:tap = "onGoToDetail1" src="/images/slide3.jpeg"></image>
+    </swiper-item>
+  </swiper>
+
+  <view data-postId="{{item.postId}}" bind:tap="onGoToDetail" class="post-container">
+  <text class="post-title">欢度佳节 | GTSI新春“哞哞哒”小年夜活动回顾</text>
+  <view class="post-author-date">
+    <text class="post-author" >作者：天津大学佐治亚理工学院</text>
+    <text class="post-date">发表于: 2月五号</text>
+  </view>
+
+  <image class="post-image" src="/images/slide1.jpeg"></image>
+  <text class="post-content">
+  借小年之际，在符合防疫规范的前提下，天津大学佐治亚理工深圳学院（GTSI）举办了一系列“哞哞哒”小年夜活动——寻宝游戏、手写春联、包饺子、好礼互换等环节精彩纷呈......在校的师生们也不忘还未回到校园的小可爱们，安排了现场直播的方式，让在异地的学子们也能参与其中。
+  </text>
+  </view>
+  <view data-postId="{{item.postId}}" bind:tap="onGoToDetail" class="post-container">
+  <text class="post-title">欢度佳节 | GTSI新春“哞哞哒”小年夜活动回顾</text>
+  <view class="post-author-date">
+    <text class="post-author" >作者：天津大学佐治亚理工学院</text>
+    <text class="post-date">发表于: 2月五号</text>
+  </view>
+
+  <image class="post-image" src="/images/slide1.jpeg"></image>
+  <text class="post-content">
+  借小年之际，在符合防疫规范的前提下，天津大学佐治亚理工深圳学院（GTSI）举办了一系列“哞哞哒”小年夜活动——寻宝游戏、手写春联、包饺子、好礼互换等环节精彩纷呈......在校的师生们也不忘还未回到校园的小可爱们，安排了现场直播的方式，让在异地的学子们也能参与其中。
+  </text>
+  </view>
+</view>
+
+
+
+

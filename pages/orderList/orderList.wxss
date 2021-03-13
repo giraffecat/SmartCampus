@@ -1,0 +1,33 @@
+/* pages/orderDetail/orderDetail.wxss */
+page{
+  background: #f0eeed
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order_detail{
+  margin-left: 3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  width: 94%;
+  height: 200rpx;
+  border: 2rpx;
+  border-radius: 40rpx;
+  margin-top: 30rpx;
+}
+.order_text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+}
+.seat_img{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 80rpx;
+  /* width: ; */
+}

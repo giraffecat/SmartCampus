@@ -1,0 +1,14 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+<view bind:tap='onGoToDetail' class="order_detail">
+  <view class="info">
+    <image class="seat_img" src="/images/order_seat.svg"></image>
+    <view class="order_text">
+        <text class="seat_num">座位号:A21</text>
+        <text class="order_time">预定时间:2021-03-11 8:00-12:00</text>
+    </view>
+</view>
+  <view class="button">
+    <l-button  wx:if="{{true}}" class='l-button' >开始学习</l-button>
+    <l-button class='l-button' color='red'>取消预定</l-button>
+  </view>
+</view>

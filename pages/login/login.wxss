@@ -1,0 +1,83 @@
+/* pages/login/login.wxss */
+
+
+ .container{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.motto{
+  color: #666;
+  margin-top: 20rpx;
+  margin-bottom: 120rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+ .inputView { 
+  /* background-color: #fff;  */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius:20px;
+  border:1px solid #84a01f;
+ } 
+
+ .l-icon-user{
+   margin-left: 10rpx;
+   color: rgb(172, 172, 19) !important ;
+ }
+
+ .l-icon-password{
+  margin-left: 10rpx;
+  color: rgb(172, 172, 19) !important ;
+ }
+ /*输入框*/
+ .nameImage, .keyImage { 
+  width: 18px; 
+  height: 16px
+ } 
+  
+ .loginLab { 
+  margin: 30rpx 30rpx ; 
+  color: #545454; 
+  font-size: 30rpx
+ } 
+  
+ .inputText { 
+  margin-right: 22px; 
+  margin-top: 11px;
+  margin-bottom: 20rpx;
+  color: black; 
+  font-size: 30rpx
+ } 
+ .line { 
+  margin-top: 8px; 
+ } 
+  
+ /* .line { 
+  width: 100%; 
+  height: 1px; 
+  background-color: #cccccc; 
+  margin-top: 1px; 
+ }  */
+  
+ /*按钮*/
+
+
+ .login-container{
+  border: 1px solid #405f80;
+  width: 400rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  margin-top: 50rpx;
+}
+
+.login-container{
+  font-size: 22rpx;
+  color: #405f80;
+  line-height: 80rpx;
+  font-weight: bold;
+}
